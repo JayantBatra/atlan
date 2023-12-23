@@ -1,0 +1,25 @@
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons span {
+  font-size: 1rem;
+  color: #555; /* Change color for the icons */
+  margin: 10px 10px; /* Adjust margin to increase spacing between icons */
+}
+
+.social-icons span a {
+  background: var(--color-bg);
+  color: var(--color-white);
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid transparent;
+}
+
+.social-icons span a:hover {
+  background: transparent;
+  color: var(--color-bg);
+  border-color: var(--color-bg);
+}
